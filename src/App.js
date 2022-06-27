@@ -2,7 +2,7 @@ import { useState } from 'react';
 import './App.css';
 function App() {
   const[grace,setGrace]=useState([0])
-  const [border,setBorder]=useState('1px solid rgb(24, 32, 52)')
+  const [border,setBorder]=useState('none')
   const[sign,setSign]=useState('')
   const[previous,setOld]=useState([])
   const[flex,setFlex]=useState()
@@ -25,7 +25,7 @@ function App() {
   const[air,setAir]=useState()
   function bit(){
     setOne('hsl(6, 63%, 50%)')
-    setBorder('1px solid rgb(24, 32, 52)')
+    //setBorder('1px solid rgb(24, 32, 52)')
     setTwo('inherit')
     setThree('inherit')
     setCap('hsl(6, 63%, 50%)')
@@ -62,7 +62,7 @@ function App() {
     setAir('0 3px 4px hsl(0, 0%, 90%')
   }
   function fit(){
-    setBorder('1px solid rgb(29, 9, 52)')
+    //setBorder('1px solid rgb(29, 9, 52)')
     setOne('inherit')
     setTwo('inherit')
     setThree('hsl(6, 63%, 50%)')
