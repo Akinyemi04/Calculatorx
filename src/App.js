@@ -132,8 +132,15 @@ function App() {
         setOld([''])
       }
       else if (action ==='delete'){
-        grace.pop()
-        setGrace([...grace])
+        if (!sign){
+          grace.pop()
+          setGrace([...grace])
+        }
+        else{
+          previous.pop()
+          setOld([...previous])
+        }
+
       }
       else if(action ==='equal'){
         const value = grace.toString()
