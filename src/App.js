@@ -82,7 +82,7 @@ function App() {
     const keyContent= key.textContent
     if (!action){
       if (!sign){
-        if (grace==0){
+        if (grace===0){
           setGrace(keyContent)
           }
           else{
