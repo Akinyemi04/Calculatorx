@@ -5,7 +5,7 @@ $header-button:hsl(6, 63%, 50%);
     box-sizing: border-box;
 }
 @mixin vape {
-   
+   border: none;
     border-radius: 15px;
     
 }
@@ -65,7 +65,7 @@ $header-button:hsl(6, 63%, 50%);
                     padding-inline-start: 0px;
                     li{
                         list-style: none;
-                        
+                        border: none;
                         background-color: inherit;
                         width: 20px;
                         height: 20px;
