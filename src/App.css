@@ -34,7 +34,7 @@
 }
 .App main header span {
   color: white;
-  margin-left: 18vw;
+  margin-left: 16vw;
   margin-top: 4vh;
   font-size: large;
   font-weight: 600;
@@ -88,6 +88,7 @@
 .App main .peace p {
   -webkit-margin-before: 0em;
           margin-block-start: 0em;
+  padding-right: 1vw;
   -webkit-margin-after: 0em;
           margin-block-end: 0em;
   height: 3.3vh;
